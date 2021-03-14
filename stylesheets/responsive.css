@@ -5,16 +5,14 @@
 @media (min-width:1300px){
 	.rzm_outside-header {
 	width:100%;
-	background:url(https://aishent.com/images/banner-bg2_3.jpg) no-repeat;
+	background:url(https://static.wixstatic.com/media/5cfe14_30977ca5f4d04cc2a8977a980baf19a9~mv2.gif);
+	
 	min-height:200px;
 }
 .thumbnail .media-object{
 	min-width:125%;
 }
-.rzm_Testimonial .carousel-indicators {
-    bottom: 10px;
-    left: 233px;
-}
+
 	.rzm_contact .input-group:nth-child(1){
 	float:left !important;
 	padding-left: 0px !important;
@@ -72,10 +70,6 @@
 	margin:0 auto;
 	display:block;
 	padding:20px 0px;
-}
-	.rzm_Testimonial .carousel-indicators{
-	width:100%;
-	left:32.5%;
 }
 	.caption blockquote{
 	width: 100%;

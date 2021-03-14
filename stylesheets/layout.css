@@ -28,7 +28,11 @@ body {
 	font-family: 'Lato', sans-serif;
 	line-height:1.6em;
 	overflow-x:hidden;
-	color:#404040;
+	color: white !important;
+	background-image: url(https://cdn.wallpapersafari.com/3/93/juGSXV.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 * {
 	-moz-box-sizing: border-box;
@@ -74,18 +78,13 @@ section{
 /*========================================
  	==== 2.0 Common Preset ====  
 ========================================*/
-.no_padding_left{
-	padding-left:0px !important;
-}
-.no_padding_right{
-	padding-right:0px !important;
-}
+
 .rzm_button a{
 	max-width:160px;
 	margin:40px auto;
 	display:block;
 	border-radius:20px;
-	color:#808080 !important;
+	color:white !important;
 	border-color:#b2b2b2 !important;
 	font-family: 'Lato', sans-serif; font-weight:900;
 	font-size:15px;
@@ -121,11 +120,10 @@ section{
 }
 .rzm_outside-header {
 	width:100%;
-	background:url(https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-tmall-professional-men-s-simple-and-calm-gray-banner-image_169175.jpg) no-repeat center center;
+	background:url() no-repeat center center;
 	min-height:300px;
 }
-.rzm_profile_nav{
-}
+
 /*===== .logo =====*/
 .logo img{
 	margin-top:-150px;
@@ -140,7 +138,6 @@ section{
 }
 
 .rzm_main_menu{
-	background:#f2f2f2;
 	margin-top:-80px;
 	max-width:200px;
 	margin-left:25px;
@@ -161,7 +158,7 @@ section{
 .rzm_profile_nav .primary li a {
 	font-family: 'Lato', sans-serif;
  text-decoration:none;
- color:#000;
+ color:white;
  font-weight:700;
  font-size:16px;
 }
@@ -177,11 +174,11 @@ section{
 }
 .social_nav a{
 	padding:10px;
-	color:#000;
 }
 .social_nav a:hover{
 	color:#00bbcc;
 }
+
 
 
 /*========================================
@@ -194,30 +191,28 @@ section{
 .rez_about{
 	position:relative;
 }
+
 .rez_top_title h1{
-	color:#ffffff;
 	font-family: 'Lato', sans-serif; font-weight:900;
 	margin-top:-75px;
 	font-size:48px;
 }
 .rez_top_title p{
-	color:#808080;
 	font-size:28px;
 	font-family: 'Lato', sans-serif; font-weight:700;
 	margin-top:32px;
 	}
 h1.title {
-	color:#404040;
 	border-bottom:1px solid #bfbfbf;
 	text-align:center;
 	font-size:28px;
 	font-family: 'Lato', sans-serif; font-weight:700;
-	padding: 135px 0 36px 0;
+	padding: 13px 0 36px 0;
 }
 .rzm_progress_bar{
 }
 .rzm_progress_bar h4{
-	color:#808080 !important;
+	color:white !important;
 	font-family: 'Lato', sans-serif; font-weight:900;
 	
 }
@@ -349,7 +344,6 @@ h1.title {
   padding: 0px 0;
 }
 #rzm_timeline .rzm_timeline-movement .rzm_timeline-item .rzm_timeline-panel {
-  color: #666;
   position: relative;
   margin-bottom:50px;
 }
@@ -362,7 +356,7 @@ h1.title {
   text-align: right;
 }
 #rzm_timeline .rzm_timeline-movement .rzm_timeline-item .rzm_timeline-panel.credits .rzm_timeline-panel-ul li {
-  color: #808080;
+  color: white;
   font-family: 'Lato', sans-serif; font-weight:700;
   font-size:15px;
  
@@ -378,7 +372,6 @@ h1.title {
   text-align: left;
 }
 #rzm_timeline .rzm_timeline-movement .rzm_timeline-item .rzm_timeline-panel.debits .rzm_timeline-panel-ul span.importo {
-     color: #404040;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -394,7 +387,7 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
 }
 
 .rzm_causale{
-	color: #808080;
+	color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 15px;
@@ -416,14 +409,13 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
 ========================================*/
 .rzm_client p{
 	font-size:28px;
-	color:#404040;
 	font-family: 'Lato', sans-serif;
 	margin: 50px 0 30px 0;
 	font-weight:300;
 }
 .rzm_client small{
 	font-size:16px;
-	color:#808080;
+	color:white;
 	font-family: 'Lato', sans-serif; 
 	font-weight:700;
 }
@@ -443,9 +435,7 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
 /*========================================
  	====7.0 Testimonial Area ====  
 ========================================*/
-.rzm_testimonial_content {
-	margin-top: 62px;
-}
+
 .carousel-inner > .item{
 	border:none !important;
 }
@@ -457,10 +447,7 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
 .adjust2 {
 	margin: 0;
 }
-.rzm_Testimonial .carousel-indicators {
-    bottom: 8px;
-    left: 210px;
-}
+
 .carousel-indicators li{
 	background-color:#bfbfbf !important;
 	border:none !important;
@@ -473,7 +460,6 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
 }
 
 .carousel-indicators .active{
-	background-color:#454545 !important;
 }
 .media-object {
 	margin: auto;
@@ -484,7 +470,6 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
 	font-size:16px;
 	font-weight:400;
 	line-height:24px;
-	color:#404040;
 }
 .caption blockquote p{
 	font-size:18px;
@@ -505,7 +490,7 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
 	line-height:6px !important;
 	font-size:15px;
 	font-weight:700;
-	color:#808080;
+	color:white;
 	text-align:right;
 }
 .caption blockquote small::before {
@@ -580,8 +565,8 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
 .rzm_footer{
 	width:100%;
 	height:auto;
-	color:#404040;
-	background:#f2f2f2;
+	background: rgba(0, 0, 0, 0.623);
+	border-top: 1px solid #ccc;
 }
 .rzm_footer h4{
 	text-align:center;
@@ -595,7 +580,6 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
 	text-align:center;
 }
 .rez_footer_social a{
-	color:#404040;
 	padding:0 10px;
 }
 .rez_footer_social a i:hover{
@@ -607,6 +591,44 @@ span.rzm_importo:hover,.rzm_timeline-panel-ul span.importo:hover{
 	font-size:15px;
 	margin:20px 0 40px 0;
 }
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	
+}
+.rzm_main_menu{
+	background: rgba(0, 0, 0, 0.623);
+
+}
+.rez_about{
+	background: rgba(0, 0, 0, 0.623);
+}
+.rzm_portfolio{
+	background: rgba(0, 0, 0, 0.623);
+
+}
+.rzm_experience{
+	background: rgba(0, 0, 0, 0.623);
+
+}
+.rzm_client{
+	background: rgba(0, 0, 0, 0.623);
+
+}
+.rzm_contact{
+	background: rgba(0, 0, 0, 0.623);
+
+}
+.rzm_fotter{
+	background: rgba(0, 0, 0, 0.623);
+	
+}
+.rzm_button a{
+	color: black !important;
+}
+
 /*========================================
  	====End Footer Area ====  
 ========================================*/
