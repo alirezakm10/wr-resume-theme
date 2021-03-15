@@ -1,5 +1,24 @@
 $(document).ready(function() {
 	
+
+  
+      $(".mobile-menu-icon").click(function(){
+          let mobile_menu = $(".mobile-menu");
+          mobile_menu.show();
+          mobile_menu.animate({
+              right:0
+          },600);
+              $("body").append('<div class="cover-screen"></div>');
+              $('.cover-screen').click(function(){
+                  mobile_menu.animate({
+                      right:"-200px"
+                  },600,function(){
+                      mobile_menu.hide();
+                  });
+                  $(this).remove();
+              })
+              
+      });
 	
 // Initiate localScroll (the plugin for the scrolling animation)
 	"use strict";

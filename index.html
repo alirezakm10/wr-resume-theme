@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="stylesheets/animate.css">
     <link rel="stylesheet" href="stylesheets/layout.css">
     <link rel="stylesheet" href="stylesheets/responsive.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    <link rel="stylesheet" href="rtl-bootstrap.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
@@ -26,8 +26,8 @@
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
-
-
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="fontawsome.css">
 
 
     <link rel="shortcut icon" href="img/favicon.png">
@@ -36,7 +36,7 @@
 
 </head>
 
-<body>
+<body dir="rtl">
 
     <!-- Primary Page Layout
 	================================================== -->
@@ -45,19 +45,22 @@
         <div class="mob_nav  navbar navbar-inverse navbar-fixed-top" id="slide-nav">
 
             <div class="navbar-header">
-                <a class="navbar-toggle"></a>
+                <a class="mobile-menu-icon"><i class="fa fa-bars"></i></a>
             </div>
 
-            <div id="slidemenu" class="navbar-default navbar-inverse">
+            <div  class="navbar-default navbar-inverse mobile-menu">
                 <ul class="nav navbar-nav primary">
                     <li><a href="#home">درباره من </a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#experience"></a>تجربیات کاری</li>
-                    <li><a href="#client">Clients</a></li>
-                    <li><a class="contact-form" href="#contact">Contact</a></li>
+                    <li><a href="#portfolio">نمونه کارها</a></li>
+                    <li><a href="#experience">تجربیات کاری</a></li>
+                    <li><a href="#client">مشتریان</a></li>
+                    <li><a class="contact-form" href="#contact">تماس با من</a></li>
 
                 </ul>
             </div>
+
+
+
         </div>
     </div>
 
@@ -75,7 +78,7 @@
         <!-- Start Main Container -->
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-12 rzm_profile_nav">
+                <div class="col-md-3 col-sm-9  rzm_profile_nav">
                     <div class="sticky">
                         <div class="logo">
                             <img src="https://sguru.org/wp-content/uploads/2017/06/cool-anonymous-profile-pictures-1699946_orig.jpg"
@@ -88,7 +91,7 @@
                                 <li class="first"><a href="#home">درباره من </a></li>
                                 <li><a href="#portfolio">نمونه کارها</a></li>
                                 <li><a href="#experience">تجربیات کاری</a></li>
-                                <li><a href="#client">مشتری ها</a></li>
+                                <li><a href="#client">مشتریان</a></li>
                                 <li><a class="contact-form" href="#contact">تماس با من</a></li>
                                 <li><a href="#home" class="go_to_top">بازگشت به بالا <i class="fa fa-arrow-up"
                                             aria-hidden="true"></i></a></li>
@@ -108,7 +111,7 @@
 
                 <div class="clearfix"></div>
                 <!-- Start Profile Section -->
-                <section class="col-md-9 col-sm-12 col-xs-12 col-md-offset-3 first profile rez_about">
+                <section class="col-md-9 col-sm-9 col-xs-12  first profile rez_about">
                     <div class="rez_top_title">
                         <h1>علیرضا کربلایی مراد</h1>
                         <p>برنامه نویس وب</p>
@@ -194,55 +197,22 @@
 
 
                 <!-- Start Portfolio section -->
-                <section class="col-md-9 col-sm-12 col-xs-12 col-md-offset-3 rzm_portfolio" id="portfolio">
+                <section class="col-md-9 col-sm-9 col-xs-12 rzm_portfolio" id="portfolio">
                     <h1 class="title">نمونه کار ها</h1>
-                    <section class="portfolio-section port-col">
-                        <div class="row">
-                            <div class="isotopeContainer3">
-
-                                <div class="col-sm-6 isotopeSelector art">
-                                    <article class="">
-                                        <figure>
-                                            <img src="https://rayantaban.com/wp-content/uploads/2021/02/tomer.desk-min.jpg"
-                                                alt="">
-                                            <div class="overlay-background">
-                                                <div class="inner"></div>
-                                            </div>
-                                            <div class="overlay">
-                                                <div class="inner-overlay">
-                                                    <div class="inner-overlay-content with-icons">
-                                                        <a title="First Image" class="fancybox-pop" rel="portfolio-22"
-                                                            href="image_gallery/images/23.jpg"><i
-                                                                class="fa fa-plus-circle"></i></a>
-                                                        <a title="Second Image" class="fancybox-pop"
-                                                            style="display: none" href="image_gallery/images/24.jpg"
-                                                            rel="portfolio-22"></a>
-                                                        <a title="Third Image" class="fancybox-pop"
-                                                            style="display: none" href="image_gallery/images/25.jpg"
-                                                            rel="portfolio-22"></a>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </figure>
-
-                                    </article>
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </section>
+                    <img width="50%" height="40%" src="https://rayantaban.com/wp-content/uploads/2021/02/tomer.desk-min.jpg" alt="">
+                    <img width="50%" height="40%" src="https://www.dadevarzan.com/wp-content/uploads/2019/10/Visual-Intuitive-Image-Based-Photo-Centered-Web-Design-for-facebook-image.jpg" alt="">
+                    <img width="50%" height="40%" src="https://www.dadevarzan.com/wp-content/uploads/2020/02/Visual-Intuitive-Image-Based-Photo-Centered-Web-Design-For-www-jahanprofilpars-com.jpg" alt="">
                 </section>
-                <!-- End Profile Section-->
+                <!-- End portfolio Section-->
                 <!-- Start Experience section -->
-                <section class="col-md-9 col-sm-12 col-xs-12 col-md-offset-3 rzm_experience" id="experience">
+                <section class="col-md-9 col-sm-9 col-xs-12  rzm_experience" id="experience">
                     <h1 class="title">تجربیات کاری</h1>
                     <div id="rzm_timeline">
 
                         <div class="row rzm_timeline-movement">
 
                             <div class="rzm_timeline-badge active_box">
+                                <br>
                             </div>
 
 
@@ -264,8 +234,8 @@
                                     <div class="col-sm-offset-1 col-sm-11 col-xs-12">
                                         <div class="rzm_timeline-panel debits">
                                             <ul class="rzm_timeline-panel-ul active">
-                                                <li><span class="rzm_importo">Vebox Creative</span></li>
-                                                <li><span class="rzm_causale">CEO, Graphic Designer </span> </li>
+                                                <li><span class="rzm_importo">WordPress</span></li>
+                                                <li><span class="rzm_causale">سئو، کدنویسی اختصاصی قالب</span> </li>
 
                                             </ul>
                                         </div>
@@ -281,6 +251,7 @@
 
                             <div class="rzm_timeline-badge ">
                             </div>
+                            <br>
 
 
                             <div class="col-sm-6 col-xs-12 rzm_timeline-item">
@@ -301,8 +272,8 @@
                                     <div class="col-sm-offset-1 col-sm-11 col-xs-12">
                                         <div class="rzm_timeline-panel debits">
                                             <ul class="rzm_timeline-panel-ul">
-                                                <li><span class="importo">Gravity Inc</span></li>
-                                                <li><span class="rzm_causale">Web Analysist, UI Designer </span> </li>
+                                                <li><span class="importo">PHP</span></li>
+                                                <li><span class="rzm_causale">لاراول </span> </li>
                                             </ul>
                                         </div>
 
@@ -315,7 +286,7 @@
 
                             <div class="rzm_timeline-badge">
                             </div>
-
+<br>
 
                             <div class="col-sm-6 col-xs-12 rzm_timeline-item">
                                 <div class="row">
@@ -335,8 +306,8 @@
                                     <div class="col-sm-offset-1 col-sm-11 col-xs-12">
                                         <div class="rzm_timeline-panel debits">
                                             <ul class="rzm_timeline-panel-ul">
-                                                <li><span class="importo">WebFX Corporation</span></li>
-                                                <li><span class="rzm_causale">UI/UX Desinger, SEO Specialist </span>
+                                                <li><span class="importo">JavaScript</span></li>
+                                                <li><span class="rzm_causale">ری اکت، اکما اسکریپت ۶</span>
                                                 </li>
 
                                             </ul>
@@ -352,7 +323,7 @@
 
                             <div class="rzm_timeline-badge">
                             </div>
-
+<br>
 
                             <div class="col-sm-6  rzm_timeline-item">
                                 <div class="row">
@@ -372,8 +343,8 @@
                                     <div class="col-sm-offset-1 col-sm-11 col-xs-12">
                                         <div class="rzm_timeline-panel debits">
                                             <ul class="rzm_timeline-panel-ul">
-                                                <li><span class="importo">Colorista</span></li>
-                                                <li><span class="rzm_causale">Retoucher, Assistant Photographer </span>
+                                                <li><span class="importo">Kali Linux</span></li>
+                                                <li><span class="rzm_causale">تست امنیت و نفوذ وب سایت</span>
                                                 </li>
 
                                             </ul>
@@ -389,7 +360,7 @@
 
                             <div class="rzm_timeline-badge">
                             </div>
-
+<br>
 
                             <div class="col-sm-6  rzm_timeline-item">
                                 <div class="row">
@@ -409,8 +380,8 @@
                                     <div class="col-sm-offset-1 col-sm-11 col-xs-12">
                                         <div class="rzm_timeline-panel debits">
                                             <ul class="rzm_timeline-panel-ul">
-                                                <li><span class="importo">GraphicPen</span></li>
-                                                <li><span class="rzm_causale">Print Designer, UI Designer </span> </li>
+                                                <li><span class="importo">کمتازیا</span></li>
+                                                <li><span class="rzm_causale">تولید محتوا</span> </li>
 
                                             </ul>
                                         </div>
@@ -431,22 +402,22 @@
                 <!-- End Experience section -->
 
                 <!-- Start Client section -->
-                <section class="col-md-9 col-sm-12 col-xs-12 col-md-offset-3 rzm_client" id="client">
-                    <h1 class="title">مشتری ها</h1>
-                    <p>Had the privilege to work with companies such as Adobe, Udemy, Puma, Google, GravityPayments &
-                        more.</p>
-                    <small>Also featured in Behance, SitePoint, Envato, DesignMag, Dribbble etc.</small>
-                    <div class="rzm_client_img">
+                <section class="col-md-9 col-sm-9 col-xs-12 rzm_client" id="client">
+                    <h1 class="title">مشتریان</h1>
+                    <p>فروشکاه موسیقی بی نام</p>
+                    <p>سایت رژیم کتو</p>
+                   
+                 
                         <img src="data:image/jpeg;base64,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"
                             alt="" class="no_padding_left">
 
-                    </div>
+                
                 </section>
                 <!-- End Client section -->
 
 
                 <!-- Start Contact section -->
-                <section class="col-md-9 col-sm-12 col-xs-12 col-md-offset-3 rzm_contact" id="contact">
+                <section class="col-md-9 col-sm-9 col-xs-12  rzm_contact" id="contact">
                     <h1 class="title">تماس با من</h1>
                     <h1>alireza.version@gmail.com</h1>
                 </section>
